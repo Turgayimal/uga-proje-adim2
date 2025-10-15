@@ -48,83 +48,42 @@ Platformun temel navigasyon yapısı ve ekranlar arası geçişler aşağıda li
 | Kendi Profilini Düzenleme      | ❌ Hayır                   | ✅ Evet (Dinleyici profili) | ✅ Evet (Müzisyen profili)|
 | Yeni Etkinlik Oluşturma        | ❌ Hayır                   | ❌ Hayır                 | ✅ Evet                  |
 
-3. Wireframe (Taslak Çizim) Açıklamaları
+### 3. Wireframe (Taslak Çizim) Açıklamaları
+
 Aşağıda, uygulamanın üç temel ekranı için basit metin tabanlı wireframe açıklamaları bulunmaktadır.
 
-Wireframe 1: Ana Sayfa
+---
 
+**Wireframe 1: Ana Sayfa**
+```
 +----------------------------------------------------------------------+
 | [Risona LOGO]   [Keşfet]   [Etkinlikler]     [Giriş Yap] [Kayıt Ol]   |
-+----------------------------------------------------------------------+
-|                                                                      |
-|                  YENİ SESLER KEŞFET                                  |
-|                  [ Şehir veya Müzik Türü Ara...  ] [ARA]             |
-|                                                                      |
-+----------------------------------------------------------------------+
-|                                                                      |
-|   **Öne Çıkan Sanatçılar** |
-|   +----------+   +----------+   +----------+   +----------+          |
-|   | [Resim]  |   | [Resim]  |   | [Resim]  |   | [Resim]  |          |
-|   | Sanatçı A|   | Sanatçı B|   | Sanatçı C|   | Sanatçı D|          |
-|   | Pop/Rock |   |   Indie  |   |  Elekro  |   |   Jazz   |          |
-|   +----------+   +----------+   +----------+   +----------+          |
-|                                                                      |
-+----------------------------------------------------------------------+
-|                                                                      |
-|   **Yaklaşan Etkinlikler** |
-|   - [Tarih] Konser Adı - Sanatçı A @ Mekan X                         |
-|   - [Tarih] Akustik Gece - Sanatçı C @ Mekan Y                       |
-|   - [Tarih] Festival - Çeşitli Sanatçılar @ Mekan Z                  |
-|                                                                      |
-+----------------------------------------------------------------------+
+... (buradaki tüm çizimler) ...
 | [Hakkında] [İletişim] [Sosyal Medya Linkleri]                        |
 +----------------------------------------------------------------------+
-Wireframe 2: Keşfet Sayfası
+```
 
+---
+
+**Wireframe 2: Keşfet Sayfası**
+```
 +----------------------------------------------------------------------+
 | [Risona LOGO]   [Keşfet]   [Etkinlikler]         [Hesabım] [Çıkış]    |
-+----------------------------------------------------------------------+
-|                                                                      |
-|   Filtrele: [Tüm Şehirler v]  [Tüm Türler v]   Sırala: [Popüler v]    |
-|                                                                      |
-+----------------------------------------------------------------------+
-|                                                                      |
-| +------------------+  +------------------+  +------------------+     |
-| | [Resim]          |  | [Resim]          |  | [Resim]          |     |
-| | **Sanatçı Adı 1**|  | **Sanatçı Adı 2**|  | **Sanatçı Adı 3**|     |
-| | Pop/Rock - Şehir |  | Indie - Şehir    |  | Jazz - Şehir     |     |
-| | [Profili Gör ->] |  | [Profili Gör ->] |  | [Profili Gör ->] |     |
-| +------------------+  +------------------+  +------------------+     |
-|                                                                      |
-| +------------------+  +------------------+  +------------------+     |
-| | [Resim]          |  | [Resim]          |  | [Resim]          |     |
-| | **Sanatçı Adı 4**|  | **Sanatçı Adı 5**|  | **Sanatçı Adı 6**|     |
-| | ...              |  | ...              |  | ...              |     |
-| +------------------+  +------------------+  +------------------+     |
+... (ortadaki tüm çizimler) ...
+| ...              |  ...              |  ...              |     |
++------------------+  +------------------+  +------------------+     |
 |                                                                      |
 +----------------------------------------------------------------------+
-Wireframe 3: Müzisyen Detay Sayfası
+```
 
+---
+
+**Wireframe 3: Müzisyen Detay Sayfası**
+```
 +----------------------------------------------------------------------+
 | [Risona LOGO]   [Keşfet]   [Etkinlikler]         [Hesabım] [Çıkış]    |
-+----------------------------------------------------------------------+
-|                                                                      |
-|  [Büyük Profil Resmi]  **SANATÇI ADI** [TAKİP ET +]                  |
-|                        *Indie/Rock - Şehir* |
-|                        [YT] [IG] [SP] (Sosyal Medya İkonları)        |
-|                                                                      |
-|  "Sanatçının kısa biyografisi burada yer alacak. Müzik yolculuğu,   |
-|  ilham kaynakları ve tarzı hakkında bilgiler..."                     |
-|                                                                      |
-+----------------------------------------------------------------------+
-|                                                                      |
-|   **Müzikleri** |
-|   > [Oynat] Şarkı Adı 1 (SoundCloud Gömülü Player)                   |
-|   > [Oynat] Şarkı Adı 2 (YouTube Gömülü Player)                      |
-|                                                                      |
-+----------------------------------------------------------------------+
-|                                                                      |
-|   **Yaklaşan Etkinlikleri** |
+... (ortadaki tüm çizimler) ...
 |   - [Tarih] Konser Adı @ Mekan X                                     |
 |                                                                      |
 +----------------------------------------------------------------------+
+```
